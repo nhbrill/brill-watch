@@ -6,6 +6,13 @@ Fitbit watch by Nate Brill
 2. nvm
 3. Fitbit Sense or Fitbit OS Simulator
 
+## Running Locally
+Clone the repo ```https://github.com/nhbrill/brill-watch.git```
+1. ```npx fitbit```
+2. fitbit$ ```build```
+3. fitbit$ ```install```
+4. See changes on watch or simulator.
+
 ## Create Watch Template
 1. ```npx create-fitbit-app my-first-clock```
    - ? What type of application should be created? ```clockface```
@@ -13,12 +20,8 @@ Fitbit watch by Nate Brill
    - ? Should this application contain a companion component? ```No```
    - ? Which platforms should this application be built for? ```Fitbit Versa 3, Fitbit Sense```
 
-## Running Locally
-1. ```npx fitbit```
-2. fitbit$ ```build```
-3. fitbit$ ```install```
-4. See changes on watch or simulator.
-
 ## Functionality
 Watch is based on Movado Museum, second hand is not present.
+
+<br><img src="img/brill_watch.png"><br>
 
